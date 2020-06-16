@@ -38,11 +38,9 @@ struct WhiteBlurView: View {
                     })
                 }
             }
-            .cornerRadius(20)
+            .cornerRadius(30)
             .frame(height: 70, alignment: .center)
-            .padding([.leading,.trailing], 50)
-            
-            
+            .padding([.leading,.trailing], 50)            
         }
     }
     
